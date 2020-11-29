@@ -193,3 +193,131 @@ aside{
     top: 10px;
 
 }
+.section-left-astro{
+    width: 770px;
+    height: 1100px;
+    margin-left: 110px;
+    /* width: fit-content; */
+    border-top: 1px solid black;
+}
+.for-title-ast{
+    /* margin-left: 5px; */
+    font-size: 15px;
+    margin: 30px 0 0;
+    padding-bottom: 30px;
+
+} 
+/* .sanjik761{
+    position: relative;
+}  */
+.section-right-pop{
+    width: 285px;
+    height: 1100px;
+    float: right;
+    position: relative;
+    bottom: 1101px;
+    right: 130px;
+    border-top: 1px solid black;
+}    
+.for-title-pop{
+    font-size: 15px;
+    margin: 30px 30px 30px 0;
+    padding-bottom: 30px;
+}
+.for-photo-text{
+    font-size: 10px;
+    color: #888;
+    position: relative; 
+    bottom: 5px;
+}
+.for-text-by-photo{
+    font-size: 18px;
+    position: relative;
+    bottom: 14px;
+    /* margin-bottom: 30px; */
+}
+.for-img-aria{
+    position: relative;
+    right: 40px;
+    bottom: 18px;
+    width: fit-content;
+    height: 270px;
+}
+.data-1{
+    font-size: 12px;
+    color: #888;
+}
+.for-photo-text,
+.for-text-by-photo{
+    height: 10px;
+}
+
+.for-img-aria1{
+    position: relative;
+    left: 220px;
+    bottom: 304px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria2{
+    position: relative;
+    left: 476px;
+    bottom: 590px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria3{
+    position: relative;
+    right: 40px;
+    bottom: 570px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria4{
+    position: relative;
+    left: 220px;
+    bottom: 856px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria5{
+    position: relative;
+    left: 476px;
+    bottom: 1142px;
+    width: fit-content;
+    height: 270px;
+}
+.word-1{
+    position: relative;
+    bottom: 43px;
+}
+.word1{
+    font-size: 18px;
+    padding: 10px 0;
+    border-top: 1px solid #e2e2e2;
+    
+}
+/* *{
+    border: 1px solid black;
+} */
+.for-img-aria6{
+    position: relative;
+    right: 40px;
+    bottom: 1117px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria7{
+    position: relative;
+    left: 220px;
+    bottom: 1403px;
+    width: fit-content;
+    height: 270px;
+}
+.for-img-aria8{
+    position: relative;
+    left: 476px;
+    bottom: 1689px;
+    width: fit-content;
+    height: 270px;
+}
