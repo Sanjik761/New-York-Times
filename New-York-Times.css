@@ -159,6 +159,12 @@ aside{
     width: 945px;
     height: 576px;
 }
+.astro-img-text-1{
+    position: relative;
+    width: 180px;
+    height: 160px;
+    bottom: 450px;
+}
 .for-larry{
     font-size: 15px;
     color: #323232;
@@ -337,6 +343,7 @@ aside{
     border-top: 1px solid rgb(224, 222, 222);
     width: 1100px;
     margin-left: 110px;
+    
 }
 .logo-footer{
     width: 200px;
@@ -349,6 +356,9 @@ aside{
     left: 164px;
     
 }
+.foot-1{
+    width: fit-content;
+}
 .fo-d-1{
     margin-left: 110px;
     position: relative;
@@ -360,6 +370,76 @@ aside{
     text-decoration: none;
     margin-top: 40px;
 }
-/* *{
+.foot-2{
+    width: fit-content;
+    margin-left: 186px;
+    /* margin-bottom: 1100px; */
+    position: relative;
+    bottom: 312px;
+}
+.fo-d-2{
+    margin-left: 110px;
+    position: relative;
+    top: 20px;
+    font-size: 19px;
+}
+.fo-ul-2{
+    margin-left: 70px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.foot-3{
+    width: fit-content;
+    margin-left: 200px;
+    position: relative;
+    bottom: 100px;
+}
+.f-12{
+    position: relative;
+    bottom: 623px;
+    margin-left: 380px;
+
+}
+.foot-4{
+    position: relative;
+    bottom: 625px;
+    margin-left: 370px;
+    width: fit-content;
+}
+.foot-5{
+    position: relative;
+    width: fit-content;
+    bottom: 937px;
+    margin-left: 600px;
+    border-left:1px solid rgb(224, 222, 222) ;
+}
+.foot-ico-1{
+    width: 10px;
+    margin-right: 2px;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.foot-fi-div{
+    font-size: 12px;
+    position: relative;
+    bottom: 1500px;
+    margin-left:110px;
+    border-top: 1px solid rgb(224, 222, 222);
+    width: 1150px;
+    
+}
+.foot-fi-a{
+    margin: 5px;
+
+}
+
+ /* *{
     border: 1px solid black;
 } */
