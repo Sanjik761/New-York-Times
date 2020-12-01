@@ -26,7 +26,6 @@
     height: 30px;
     margin-left: 520px;
     padding-top: 5px;
-
 }
 .nav-right{
     margin-left: 335px;
@@ -36,8 +35,7 @@
 .nav-left,
 .nav-center,
 .nav-right{
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .right-button{
     width: 140px;
@@ -89,8 +87,6 @@ h3{
     background-color: white;
     border-radius: 50%;
     border: 1px solid grey;
-
-
 }
 .for-icon-1{
     width: 20px;
@@ -105,7 +101,6 @@ h3{
 .for-border{
     border-bottom: 1px solid #888;
     width: 70px;
-
 }
 aside{
     float: right;
@@ -113,12 +108,10 @@ aside{
     height: 350px;
     position: relative;
     bottom: 100px;
-
 }
 .for-name{
     font-size: 18px;
     border-bottom: 1px solid #888;
-    
 }
 .aside-img{
     width: 75px;
@@ -159,12 +152,6 @@ aside{
     width: 945px;
     height: 576px;
 }
-.astro-img-text-1{
-    position: relative;
-    width: 180px;
-    height: 160px;
-    bottom: 450px;
-}
 .for-larry{
     font-size: 15px;
     color: #323232;
@@ -204,26 +191,18 @@ aside{
     position: relative;
     right: 240px;
     top: 10px;
-
 }
 .section-left-astro{
-    /* display: block; */
     width: 770px;
     height: 1100px;
     margin-left: 110px;
-    /* width: fit-content; */
     border-top: 1px solid black;
 }
 .for-title-ast{
-    /* margin-left: 5px; */
     font-size: 15px;
     margin: 30px 0 0;
     padding-bottom: 30px;
-
 } 
-/* .sanjik761{
-    position: relative;
-}  */
 .section-right-pop{
     width: 285px;
     height: 1100px;
@@ -248,7 +227,6 @@ aside{
     font-size: 18px;
     position: relative;
     bottom: 14px;
-    /* margin-bottom: 30px; */
 }
 .for-img-aria{
     position: relative;
@@ -265,7 +243,6 @@ aside{
 .for-text-by-photo{
     height: 10px;
 }
-
 .for-img-aria1{
     position: relative;
     left: 220px;
@@ -308,12 +285,8 @@ aside{
 .word1{
     font-size: 18px;
     padding: 10px 0;
-    border-top: 1px solid #e2e2e2;
-    
+    border-top: 1px solid #e2e2e2;   
 }
-/* *{
-    border: 1px solid black;
-} */
 .for-img-aria6{
     position: relative;
     right: 40px;
@@ -342,8 +315,7 @@ aside{
 .h-r{
     border-top: 1px solid rgb(224, 222, 222);
     width: 1100px;
-    margin-left: 110px;
-    
+    margin-left: 110px;    
 }
 .logo-footer{
     width: 200px;
@@ -354,7 +326,6 @@ aside{
     margin-top: 20px;
     position: relative;
     left: 164px;
-    
 }
 .foot-1{
     width: fit-content;
@@ -373,7 +344,6 @@ aside{
 .foot-2{
     width: fit-content;
     margin-left: 186px;
-    /* margin-bottom: 1100px; */
     position: relative;
     bottom: 312px;
 }
@@ -398,7 +368,6 @@ aside{
     position: relative;
     bottom: 623px;
     margin-left: 380px;
-
 }
 .foot-4{
     position: relative;
@@ -433,13 +402,7 @@ a:hover{
     margin-left:110px;
     border-top: 1px solid rgb(224, 222, 222);
     width: 1150px;
-    
 }
 .foot-fi-a{
     margin: 5px;
-
 }
-
- /* *{
-    border: 1px solid black;
-} */
