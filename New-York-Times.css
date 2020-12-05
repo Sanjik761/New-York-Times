@@ -2,178 +2,260 @@
     border: 1px solid black;
 } */
 
-.header-start{
-    position: sticky;
+.header-start {
+    position: fixed;
+    z-index: 1;
     top: 0px;
     border-bottom: 1px solid rgb(214, 211, 211);
     background-color: white;
-    margin: 0px;    
 }
-.nav-left{
+
+.nav-left {
     margin-left: 20px;
-    position: absolute;
-    top: 5px;
+    position: relative;
+    bottom: 10px;
 }    
+
 .fa-bars,
-.fa-search{
+.fa-search {
     margin: 5px;
 }
-.nav-left-word{
+
+.nav-left-word {
     font-family: sans-serif;
 }
-.nav-center{
+
+.nav-center {
     width: 240px;
     height: 30px;
-    margin-left: 520px;
+    margin-left: 380px;
     padding-top: 5px;
 }
-.nav-right{
-    margin-left: 335px;
-    position: absolute;
-    top: 5px;
+
+.nav-right {
+    margin-left: 260px;
+    position: relative;
+    bottom: 10px;
 }
+
 .nav-left,
 .nav-center,
-.nav-right{
+.nav-right {
     display: inline-block;    
 }
-.right-button{
+
+.right-button {
     width: 140px;
     height: 35px;
     background-color: #567b95;
     color: white;
     border-radius: 4px;
 }
-.right-button1{
+
+.right-button1 {
     width: 80px;
     height: 35px;
     background-color: #567b95;
     color: white;
     border-radius: 4px;
 }
-.nav-word{
+
+.nav-word {
     font-size: 30px;
 }
-.section-photo{
+
+.section-photo {
     width: 945px;
     height: 531px;
     margin-left: 200px;
 }
-.section-word{
+
+.section-word {
     margin-left: 200px;
     color: #333;
 }
-.word-style{
+
+.word-style {
     color: #888;
     font-size: 13px;
 }
-h3{
+
+h3 {
     margin-left: 400px;
 }
-.data{
+
+.data {
     margin-left: 400px;
 }
-.for-logo{
+
+.for-logo {
     margin-left:400px;
 }
-.for-icon{
+
+.for-icon {
     width: 17px;
     height: 17px;
     background-color: rgb(182, 179, 179);
     border-radius: 50px;
     padding: 3px;
 }
-.for-icon:hover{
+
+.for-icon:hover {
     background-color: white;
     border-radius: 50%;
     border: 1px solid grey;
 }
-.for-icon-1{
+
+.for-icon-1 {
     width: 20px;
     height: 20px;
 }
-.by-text{
+
+.by-text {
     width: 550px;
     font-size: 20px;
     margin-left: 400px;
     color: #333;
 }
-.for-border{
+
+.for-border {
     border-bottom: 1px solid #888;
     width: 70px;
 }
-aside{
+ 
+aside {
     float: right;
     width: 250px;
     height: 350px;
     position: relative;
     bottom: 100px;
 }
-.for-name{
+
+.for-name {
     font-size: 18px;
     border-bottom: 1px solid #888;
 }
-.aside-img{
+
+.aside-img {
     width: 75px;
     height: 75px;
     float: left;
     margin-bottom: 15px;
 }
-.aside-text{
+
+.aside-text {
     width: 140px;
     float: right;
     position: relative;
     bottom: 16px;
     right: 25px;
 }
-.aside-text2{
+
+.aside-text2 {
     width: 140px;
     float: right;
     position: relative;
     bottom: 28px;
     right: 25px; 
 }
-.aside-text3{
+
+.aside-text3 {
     width: 140px;
     float: right;
     position: relative;
     bottom: 42px;
     right: 25px;
 }
-.for-astro{
+
+.for-astro {
     width: 945px;
     margin-left: 200px;
 }
-.word-style1{
+
+.word-style1 {
     font-size: 16px;
     color: #666;
 }
-.astro-img{
+
+.astro-img {
     width: 945px;
     height: 576px;
 }
-.for-larry{
+
+.position {
+    position: relative;
+}
+
+.position p {
+    position: absolute;
+    font-size: 14px;
+    width: 220px;
+    height: 170px;
+}
+.universe{
+    bottom: 250px;
+}
+
+.enough{
+    bottom: 250px;
+    left: 240px;
+}
+
+.coffee {
+    bottom: 250px;
+    left: 483px;
+}
+
+.everywhere {
+    bottom: 250px;
+    left: 730px;
+}
+
+.still {
+    bottom: -30px;
+}
+
+.inflation {
+    bottom: -30px;
+    left: 240px;
+}
+
+.flucation {
+    bottom: -30px;
+    left: 483px;
+}
+
+.expansion {
+    bottom: -30px;
+    left: 730px;
+}
+.for-larry {
     font-size: 15px;
     color: #323232;
 }
-.for-video{
+
+.for-video {
     margin-left: 400px;
 }
-.for-video-text{
+
+.for-video-text {
     font-size: 15px;
     color: #333;
 }
-.for-video-text1{
+
+.for-video-text1 {
     font-size: 12px;
     color: #888;
 }
-.by-next{
+
+.by-next {
     font-size: 12px;
     color: #666;
     margin-left: 400px;
     position: relative;
 }
-.for-button-next{
+
+.for-button-next {
     margin-left: 400px;
     width: 220px;
     height: 35px;
@@ -181,7 +263,8 @@ aside{
     color: white;
     border-radius: 4px;   
 }
-.for-icon1{
+
+.for-icon1 {
     width: 15px;
     height: 15px;
     background-color: rgb(182, 179, 179);
@@ -192,18 +275,21 @@ aside{
     right: 240px;
     top: 10px;
 }
-.section-left-astro{
+
+.section-left-astro {
     width: 770px;
     height: 1100px;
     margin-left: 110px;
     border-top: 1px solid black;
 }
-.for-title-ast{
+
+.for-title-ast {
     font-size: 15px;
     margin: 30px 0 0;
     padding-bottom: 30px;
 } 
-.section-right-pop{
+
+.section-right-pop {
     width: 285px;
     height: 1100px;
     float: right;
@@ -212,190 +298,225 @@ aside{
     right: 130px;
     border-top: 1px solid black;
 }    
-.for-title-pop{
+
+.for-title-pop {
     font-size: 15px;
     margin: 30px 30px 30px 0;
     padding-bottom: 30px;
 }
-.for-photo-text{
+
+.for-photo-text {
     font-size: 10px;
     color: #888;
     position: relative; 
     bottom: 5px;
 }
-.for-text-by-photo{
+
+.for-text-by-photo {
     font-size: 18px;
     position: relative;
     bottom: 14px;
 }
-.for-img-aria{
+
+.for-img-aria {
     position: relative;
     right: 40px;
     bottom: 18px;
     width: fit-content;
     height: 270px;
 }
-.data-1{
+
+.data-1 {
     font-size: 12px;
     color: #888;
 }
+
 .for-photo-text,
-.for-text-by-photo{
+.for-text-by-photo {
     height: 10px;
 }
-.for-img-aria1{
+
+.for-img-aria1 {
     position: relative;
     left: 220px;
     bottom: 304px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria2{
+
+.for-img-aria2 {
     position: relative;
     left: 476px;
     bottom: 590px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria3{
+
+.for-img-aria3 {
     position: relative;
     right: 40px;
     bottom: 570px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria4{
+
+.for-img-aria4 {
     position: relative;
     left: 220px;
     bottom: 856px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria5{
+
+.for-img-aria5 { 
     position: relative;
     left: 476px;
     bottom: 1142px;
     width: fit-content;
     height: 270px;
 }
-.word-1{
+
+.word-1 {
     position: relative;
     bottom: 43px;
 }
-.word1{
+
+.word1 {
     font-size: 18px;
     padding: 10px 0;
     border-top: 1px solid #e2e2e2;   
 }
-.for-img-aria6{
+
+.for-img-aria6 {
     position: relative;
     right: 40px;
     bottom: 1100px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria7{
+
+.for-img-aria7 {
     position: relative;
     left: 220px;
     bottom: 1386px;
     width: fit-content;
     height: 270px;
 }
-.for-img-aria8{
+
+.for-img-aria8 {
     position: relative;
     left: 476px;
     bottom: 1672px;
     width: fit-content;
     height: 270px;
 }
-.word-edit{
+
+.word-edit {
     position: relative;
     bottom: 1108px;
 }
-.h-r{
+
+.h-r {
     border-top: 1px solid rgb(224, 222, 222);
     width: 1100px;
     margin-left: 110px;    
 }
-.logo-footer{
+
+.logo-footer {
     width: 200px;
     margin-top: 20px;
 }
-.logo-footer-word{
+
+.logo-footer-word {
     float: right;
     margin-top: 20px;
     position: relative;
     left: 164px;
 }
-.foot-1{
+
+.foot-1 {
     width: fit-content;
 }
-.fo-d-1{
+
+.fo-d-1 {
     margin-left: 110px;
     position: relative;
     top: 20px;
     font-size: 19px;
 }
-.fo-ul-1{
+
+.fo-ul-1 {
     margin-left: 70px;
     text-decoration: none;
     margin-top: 40px;
 }
-.foot-2{
+
+.foot-2 {
     width: fit-content;
     margin-left: 186px;
     position: relative;
     bottom: 312px;
 }
-.fo-d-2{
+
+.fo-d-2 {
     margin-left: 110px;
     position: relative;
     top: 20px;
     font-size: 19px;
 }
-.fo-ul-2{
+
+.fo-ul-2 {
     margin-left: 70px;
     text-decoration: none;
     margin-top: 40px;
 }
-.foot-3{
+
+.foot-3 {
     width: fit-content;
     margin-left: 200px;
     position: relative;
     bottom: 100px;
 }
-.f-12{
+
+.f-12 {
     position: relative;
     bottom: 623px;
     margin-left: 380px;
 }
-.foot-4{
+
+.foot-4 {
     position: relative;
     bottom: 625px;
     margin-left: 370px;
     width: fit-content;
 }
-.foot-5{
+
+.foot-5 {
     position: relative;
     width: fit-content;
     bottom: 937px;
     margin-left: 600px;
     border-left:1px solid rgb(224, 222, 222) ;
 }
-.foot-ico-1{
+
+.foot-ico-1 { 
     width: 10px;
     margin-right: 2px;
 }
-li{
+
+li {
     list-style-type: none;
 }
-a:link{
+
+a:link {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.foot-fi-div{
+
+.foot-fi-div {
     font-size: 12px;
     position: relative;
     bottom: 1500px;
@@ -403,6 +524,7 @@ a:hover{
     border-top: 1px solid rgb(224, 222, 222);
     width: 1150px;
 }
-.foot-fi-a{
+
+.foot-fi-a {
     margin: 5px;
 }
