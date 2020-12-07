@@ -2,23 +2,25 @@
     border: 1px solid black;
 } */
 
+.header-start,
+.nav-word,
+.center1,
+.center2 {
+    display: flex;
+}
 .header-start {
     position: fixed;
     z-index: 1;
     top: 0px;
     border-bottom: 1px solid rgb(214, 211, 211);
     background-color: white;
+    justify-content: space-between;
+    width: 1335px;
 }
-
-.nav-left {
-    margin-left: 20px;
-    position: relative;
-    bottom: 10px;
-}    
-
+    
 .fa-bars,
 .fa-search {
-    margin: 5px;
+    margin: 10px 5px 5px 5px;
 }
 
 .nav-left-word {
@@ -26,52 +28,42 @@
 }
 
 .nav-center {
+    margin-top: 3px;
     width: 240px;
     height: 30px;
-    margin-left: 380px;
-    padding-top: 5px;
-}
-
-.nav-right {
-    margin-left: 260px;
-    position: relative;
-    bottom: 10px;
-}
-
-.nav-left,
-.nav-center,
-.nav-right {
-    display: inline-block;    
 }
 
 .right-button {
-    width: 140px;
+    width: 130px;
     height: 35px;
     background-color: #567b95;
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 .right-button1 {
-    width: 80px;
+    width: 75px;
     height: 35px;
     background-color: #567b95;
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 .nav-word {
+    justify-content: center;
     font-size: 30px;
+}
+
+.center1{
+    justify-content: center;
 }
 
 .section-photo {
     width: 945px;
     height: 531px;
-    margin-left: 200px;
 }
 
 .section-word {
-    margin-left: 200px;
     color: #333;
 }
 
@@ -80,16 +72,11 @@
     font-size: 13px;
 }
 
+.center2{
+    justify-content: space-evenly;
+}
 h3 {
     margin-left: 400px;
-}
-
-.data {
-    margin-left: 400px;
-}
-
-.for-logo {
-    margin-left:400px;
 }
 
 .for-icon {
@@ -120,7 +107,7 @@ h3 {
 
 .for-border {
     border-bottom: 1px solid #888;
-    width: 70px;
+    width: 70px;    
 }
  
 aside {
@@ -143,26 +130,25 @@ aside {
     margin-bottom: 15px;
 }
 
-.aside-text {
+.aside-text,
+.aside-text2,
+.aside-text3 {
     width: 140px;
     float: right;
     position: relative;
+}
+
+.aside-text {
     bottom: 16px;
     right: 25px;
 }
 
 .aside-text2 {
-    width: 140px;
-    float: right;
-    position: relative;
     bottom: 28px;
     right: 25px; 
 }
 
 .aside-text3 {
-    width: 140px;
-    float: right;
-    position: relative;
     bottom: 42px;
     right: 25px;
 }
@@ -192,41 +178,41 @@ aside {
     width: 220px;
     height: 170px;
 }
-.universe{
+.universe,
+.enough,
+.coffee,
+.everywhere {
     bottom: 250px;
 }
 
 .enough{
-    bottom: 250px;
     left: 240px;
 }
 
 .coffee {
-    bottom: 250px;
     left: 483px;
 }
 
 .everywhere {
-    bottom: 250px;
     left: 730px;
 }
 
-.still {
+.still,
+.inflation,
+.flucation,
+.expansion {
     bottom: -30px;
 }
 
 .inflation {
-    bottom: -30px;
     left: 240px;
 }
 
 .flucation {
-    bottom: -30px;
     left: 483px;
 }
 
 .expansion {
-    bottom: -30px;
     left: 730px;
 }
 .for-larry {
@@ -252,7 +238,6 @@ aside {
     font-size: 12px;
     color: #666;
     margin-left: 400px;
-    position: relative;
 }
 
 .for-button-next {
@@ -269,11 +254,22 @@ aside {
     height: 15px;
     background-color: rgb(182, 179, 179);
     border-radius: 50px;
-    padding: 2px;
+    padding: 3px;
     margin: 9px;
     position: relative;
-    right: 240px;
+    left: 170px;     
     top: 10px;
+}
+
+.for-icon1:hover {
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+
+.section-left-astro1,
+.section-right-pop1 {
+    position: relative;
 }
 
 .section-left-astro {
@@ -293,8 +289,8 @@ aside {
     width: 285px;
     height: 1100px;
     float: right;
-    position: relative;
-    bottom: 1101px;
+    position: absolute;
+    bottom: 1px;
     right: 130px;
     border-top: 1px solid black;
 }    
@@ -308,20 +304,18 @@ aside {
 .for-photo-text {
     font-size: 10px;
     color: #888;
-    position: relative; 
-    bottom: 5px;
+    position: absolute; 
+    bottom: 77px;
 }
 
 .for-text-by-photo {
     font-size: 18px;
-    position: relative;
-    bottom: 14px;
 }
 
 .for-img-aria {
-    position: relative;
-    right: 40px;
-    bottom: 18px;
+    position: absolute;
+    left: 70px;
+    bottom: 740px;
     width: fit-content;
     height: 270px;
 }
@@ -336,49 +330,47 @@ aside {
     height: 10px;
 }
 
-.for-img-aria1 {
-    position: relative;
-    left: 220px;
-    bottom: 304px;
+.for-img-aria1,
+.for-img-aria2,
+.for-img-aria3,
+.for-img-aria4,
+.for-img-aria5,
+.for-img-aria6,
+.for-img-aria7,
+.for-img-aria8 {
+    position: absolute;
     width: fit-content;
     height: 270px;
+}
+
+.for-img-aria1 {
+    left: 332px;
+    bottom: 740px;
 }
 
 .for-img-aria2 {
-    position: relative;
-    left: 476px;
-    bottom: 590px;
-    width: fit-content;
-    height: 270px;
+    left: 590px;
+    bottom: 740px;
 }
 
 .for-img-aria3 {
-    position: relative;
-    right: 40px;
-    bottom: 570px;
-    width: fit-content;
-    height: 270px;
+    left: 70px;
+    bottom: 440px;
 }
 
 .for-img-aria4 {
-    position: relative;
-    left: 220px;
-    bottom: 856px;
-    width: fit-content;
-    height: 270px;
+    left: 332px;
+    bottom: 440px;
 }
 
 .for-img-aria5 { 
-    position: relative;
-    left: 476px;
-    bottom: 1142px;
-    width: fit-content;
-    height: 270px;
+    left: 590px;
+    bottom: 440px;
 }
 
 .word-1 {
-    position: relative;
-    bottom: 43px;
+    position: absolute;
+    bottom: 13px;
 }
 
 .word1 {
@@ -388,36 +380,28 @@ aside {
 }
 
 .for-img-aria6 {
-    position: relative;
-    right: 40px;
-    bottom: 1100px;
-    width: fit-content;
-    height: 270px;
+    left: 70px;
+    bottom: 70px;
 }
 
 .for-img-aria7 {
-    position: relative;
-    left: 220px;
-    bottom: 1386px;
-    width: fit-content;
-    height: 270px;
+    left: 332px;
+    bottom: 70px;
 }
 
 .for-img-aria8 {
-    position: relative;
-    left: 476px;
-    bottom: 1672px;
-    width: fit-content;
-    height: 270px;
+    left: 590px;
+    bottom: 70px;
 }
 
 .word-edit {
-    position: relative;
-    bottom: 1108px;
+    position: absolute;
+    bottom: 380px;
+    width: 760px;
 }
 
 .h-r {
-    border-top: 1px solid rgb(224, 222, 222);
+    border-top: 3px double rgb(224, 222, 222);
     width: 1100px;
     margin-left: 110px;    
 }
@@ -431,72 +415,83 @@ aside {
     float: right;
     margin-top: 20px;
     position: relative;
-    left: 164px;
+}
+
+.start-footer{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.start-footer ul li{
+    font-size: 14px;
+}
+
+.start-footer a {
+    color: black;
 }
 
 .foot-1 {
     width: fit-content;
+    margin-left: 70px;
 }
 
-.fo-d-1 {
-    margin-left: 110px;
-    position: relative;
-    top: 20px;
+.fo-d-1,
+.fo-d-2,
+.fo-d-3,
+.fo-d-4,
+.fo-d-5,
+.fo-d-6 {
     font-size: 19px;
 }
 
-.fo-ul-1 {
-    margin-left: 70px;
+.fo-ul-1,
+.fo-ul-2,
+.fo-ul-3,
+.fo-ul-4,
+.fo-ul-5,
+.fo-ul-6,
+a:link {
     text-decoration: none;
-    margin-top: 40px;
 }
+
+.foot-2,
+.foot-3,
+.foot-4,
+.foot-5,
+.foot-6 {
+    width: fit-content;
+    position: absolute;
+    top: 55px;
+}
+
 
 .foot-2 {
-    width: fit-content;
-    margin-left: 186px;
-    position: relative;
-    bottom: 312px;
-}
-
-.fo-d-2 {
-    margin-left: 110px;
-    position: relative;
-    top: 20px;
-    font-size: 19px;
-}
-
-.fo-ul-2 {
-    margin-left: 70px;
-    text-decoration: none;
-    margin-top: 40px;
+    margin-left: 260px;
 }
 
 .foot-3 {
-    width: fit-content;
-    margin-left: 200px;
-    position: relative;
-    bottom: 100px;
-}
-
-.f-12 {
-    position: relative;
-    bottom: 623px;
-    margin-left: 380px;
+    margin-left: 443px;
 }
 
 .foot-4 {
-    position: relative;
-    bottom: 625px;
-    margin-left: 370px;
-    width: fit-content;
+    margin-left: 625px;
 }
 
 .foot-5 {
-    position: relative;
-    width: fit-content;
-    bottom: 937px;
-    margin-left: 600px;
+    margin-left: 810px;
+}
+
+.foot-6 {
+    margin-left: 1013px;
     border-left:1px solid rgb(224, 222, 222) ;
+}
+
+.fo-d-6 {
+    margin-left: 40px;
+}
+
+.h-r-1 {
+    width: 160px;
 }
 
 .foot-ico-1 { 
@@ -508,24 +503,46 @@ li {
     list-style-type: none;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 a:hover {
     text-decoration: underline;
 }
 
 .foot-fi-div {
-    font-size: 12px;
+    font-size: 11px;
     position: relative;
-    bottom: 1500px;
     margin-left:110px;
     border-top: 1px solid rgb(224, 222, 222);
     width: 1150px;
-    color: grey; 
+    padding-bottom: 70px;
+}
+
+.logo-footer-word a,
+.foot-fi-div a {
+    color: grey;
 }
 
 .foot-fi-a {
     margin: 5px;
+}
+
+.bot-fix {
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    width: 1310px;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.access {
+    margin-left: 420px;
+}
+
+.expand {
+    margin-left: 200px;
+}
+
+a {
+    color: black;
 }
