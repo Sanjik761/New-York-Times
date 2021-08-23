@@ -6,328 +6,332 @@
 .nav-word,
 .center1,
 .center2 {
-    display: flex;
+  display: flex;
 }
+
 .header-start {
-    position: fixed;
-    z-index: 1;
-    top: 0px;
-    border-bottom: 1px solid rgb(214, 211, 211);
-    background-color: white;
-    justify-content: space-between;
-    width: 1335px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  border-bottom: 1px solid rgb(214, 211, 211);
+  background-color: white;
+  justify-content: space-between;
+  width: 1335px;
 }
-    
+
 .fa-bars,
 .fa-search {
-    margin: 10px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
 }
 
 .nav-left-word {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .nav-center {
-    margin-top: 3px;
-    width: 240px;
-    height: 30px;
+  margin-top: 3px;
+  width: 240px;
+  height: 30px;
 }
 
 .right-button {
-    width: 130px;
-    height: 35px;
-    background-color: #567b95;
-    color: white;
-    border-radius: 3px;
+  width: 130px;
+  height: 35px;
+  background-color: #567b95;
+  color: white;
+  border-radius: 3px;
 }
 
 .right-button1 {
-    width: 75px;
-    height: 35px;
-    background-color: #567b95;
-    color: white;
-    border-radius: 3px;
+  width: 75px;
+  height: 35px;
+  background-color: #567b95;
+  color: white;
+  border-radius: 3px;
 }
 
 .nav-word {
-    justify-content: center;
-    font-size: 30px;
+  justify-content: center;
+  font-size: 30px;
 }
 
-.center1{
-    justify-content: center;
+.center1 {
+  justify-content: center;
 }
 
 .section-photo {
-    width: 945px;
-    height: 531px;
+  width: 945px;
+  height: 531px;
 }
 
 .section-word {
-    color: #333;
+  color: #333;
 }
 
 .word-style {
-    color: #888;
-    font-size: 13px;
+  color: #888;
+  font-size: 13px;
 }
 
-.center2{
-    justify-content: space-evenly;
+.center2 {
+  justify-content: space-evenly;
 }
+
 h3 {
-    margin-left: 400px;
+  margin-left: 400px;
 }
 
 .for-icon {
-    width: 17px;
-    height: 17px;
-    background-color: rgb(182, 179, 179);
-    border-radius: 50px;
-    padding: 3px;
+  width: 17px;
+  height: 17px;
+  background-color: rgb(182, 179, 179);
+  border-radius: 50px;
+  padding: 3px;
 }
 
 .for-icon:hover {
-    background-color: white;
-    border-radius: 50%;
-    border: 1px solid grey;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
 }
 
 .for-icon-1 {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .by-text {
-    width: 550px;
-    font-size: 20px;
-    margin-left: 400px;
-    color: #333;
+  width: 550px;
+  font-size: 20px;
+  margin-left: 400px;
+  color: #333;
 }
 
 .for-border {
-    border-bottom: 1px solid #888;
-    width: 70px;    
+  border-bottom: 1px solid #888;
+  width: 70px;
 }
- 
+
 aside {
-    float: right;
-    width: 250px;
-    height: 350px;
-    position: relative;
-    bottom: 100px;
+  float: right;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  bottom: 100px;
 }
 
 .for-name {
-    font-size: 18px;
-    border-bottom: 1px solid #888;
+  font-size: 18px;
+  border-bottom: 1px solid #888;
 }
 
 .aside-img {
-    width: 75px;
-    height: 75px;
-    float: left;
-    margin-bottom: 15px;
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-bottom: 15px;
 }
 
 .aside-text,
 .aside-text2,
 .aside-text3 {
-    width: 140px;
-    float: right;
-    position: relative;
+  width: 140px;
+  float: right;
+  position: relative;
 }
 
 .aside-text {
-    bottom: 16px;
-    right: 25px;
+  bottom: 16px;
+  right: 25px;
 }
 
 .aside-text2 {
-    bottom: 28px;
-    right: 25px; 
+  bottom: 28px;
+  right: 25px;
 }
 
 .aside-text3 {
-    bottom: 42px;
-    right: 25px;
+  bottom: 42px;
+  right: 25px;
 }
 
 .for-astro {
-    width: 945px;
-    margin-left: 200px;
+  width: 945px;
+  margin-left: 200px;
 }
 
 .word-style1 {
-    font-size: 16px;
-    color: #666;
+  font-size: 16px;
+  color: #666;
 }
 
 .astro-img {
-    width: 945px;
-    height: 576px;
+  width: 945px;
+  height: 576px;
 }
 
 .position {
-    position: relative;
+  position: relative;
 }
 
 .position p {
-    position: absolute;
-    font-size: 14px;
-    width: 220px;
-    height: 170px;
+  position: absolute;
+  font-size: 14px;
+  width: 220px;
+  height: 170px;
 }
+
 .universe,
 .enough,
 .coffee,
 .everywhere {
-    bottom: 250px;
+  bottom: 250px;
 }
 
-.enough{
-    left: 240px;
+.enough {
+  left: 240px;
 }
 
 .coffee {
-    left: 483px;
+  left: 483px;
 }
 
 .everywhere {
-    left: 730px;
+  left: 730px;
 }
 
 .still,
 .inflation,
 .flucation,
 .expansion {
-    bottom: -30px;
+  bottom: -30px;
 }
 
 .inflation {
-    left: 240px;
+  left: 240px;
 }
 
 .flucation {
-    left: 483px;
+  left: 483px;
 }
 
 .expansion {
-    left: 730px;
+  left: 730px;
 }
+
 .for-larry {
-    font-size: 15px;
-    color: #323232;
+  font-size: 15px;
+  color: #323232;
 }
 
 .for-video {
-    margin-left: 400px;
+  margin-left: 400px;
 }
 
 .for-video-text {
-    font-size: 15px;
-    color: #333;
+  font-size: 15px;
+  color: #333;
 }
 
 .for-video-text1 {
-    font-size: 12px;
-    color: #888;
+  font-size: 12px;
+  color: #888;
 }
 
 .by-next {
-    font-size: 12px;
-    color: #666;
-    margin-left: 400px;
+  font-size: 12px;
+  color: #666;
+  margin-left: 400px;
 }
 
 .for-button-next {
-    margin-left: 400px;
-    width: 220px;
-    height: 35px;
-    background-color: #567b95;
-    color: white;
-    border-radius: 4px;   
+  margin-left: 400px;
+  width: 220px;
+  height: 35px;
+  background-color: #567b95;
+  color: white;
+  border-radius: 4px;
 }
 
 .for-icon1 {
-    width: 15px;
-    height: 15px;
-    background-color: rgb(182, 179, 179);
-    border-radius: 50px;
-    padding: 3px;
-    margin: 9px;
-    position: relative;
-    left: 170px;     
-    top: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(182, 179, 179);
+  border-radius: 50px;
+  padding: 3px;
+  margin: 9px;
+  position: relative;
+  left: 170px;
+  top: 10px;
 }
 
 .for-icon1:hover {
-    background-color: white;
-    border-radius: 50px;
-    border: 1px solid grey;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid grey;
 }
 
 .section-left-astro1,
 .section-right-pop1 {
-    position: relative;
+  position: relative;
 }
 
 .section-left-astro {
-    width: 770px;
-    height: 1100px;
-    margin-left: 110px;
-    border-top: 1px solid black;
+  width: 770px;
+  height: 1100px;
+  margin-left: 110px;
+  border-top: 1px solid black;
 }
 
 .for-title-ast {
-    font-size: 15px;
-    margin: 30px 0 0;
-    padding-bottom: 30px;
-} 
+  font-size: 15px;
+  margin: 30px 0 0;
+  padding-bottom: 30px;
+}
 
 .section-right-pop {
-    width: 285px;
-    height: 1100px;
-    float: right;
-    position: absolute;
-    bottom: 1px;
-    right: 130px;
-    border-top: 1px solid black;
-}    
+  width: 285px;
+  height: 1100px;
+  float: right;
+  position: absolute;
+  bottom: 1px;
+  right: 130px;
+  border-top: 1px solid black;
+}
 
 .for-title-pop {
-    font-size: 15px;
-    margin: 30px 30px 30px 0;
-    padding-bottom: 30px;
+  font-size: 15px;
+  margin: 30px 30px 30px 0;
+  padding-bottom: 30px;
 }
 
 .for-photo-text {
-    font-size: 10px;
-    color: #888;
-    position: absolute; 
-    bottom: 77px;
+  font-size: 10px;
+  color: #888;
+  position: absolute;
+  bottom: 77px;
 }
 
 .for-text-by-photo {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .for-img-aria {
-    position: absolute;
-    left: 70px;
-    bottom: 740px;
-    width: fit-content;
-    height: 270px;
+  position: absolute;
+  left: 70px;
+  bottom: 740px;
+  width: fit-content;
+  height: 270px;
 }
 
 .data-1 {
-    font-size: 12px;
-    color: #888;
+  font-size: 12px;
+  color: #888;
 }
 
 .for-photo-text,
 .for-text-by-photo {
-    height: 10px;
+  height: 10px;
 }
 
 .for-img-aria1,
@@ -338,101 +342,101 @@ aside {
 .for-img-aria6,
 .for-img-aria7,
 .for-img-aria8 {
-    position: absolute;
-    width: fit-content;
-    height: 270px;
+  position: absolute;
+  width: fit-content;
+  height: 270px;
 }
 
 .for-img-aria1 {
-    left: 332px;
-    bottom: 740px;
+  left: 332px;
+  bottom: 740px;
 }
 
 .for-img-aria2 {
-    left: 590px;
-    bottom: 740px;
+  left: 590px;
+  bottom: 740px;
 }
 
 .for-img-aria3 {
-    left: 70px;
-    bottom: 440px;
+  left: 70px;
+  bottom: 440px;
 }
 
 .for-img-aria4 {
-    left: 332px;
-    bottom: 440px;
+  left: 332px;
+  bottom: 440px;
 }
 
-.for-img-aria5 { 
-    left: 590px;
-    bottom: 440px;
+.for-img-aria5 {
+  left: 590px;
+  bottom: 440px;
 }
 
 .word-1 {
-    position: absolute;
-    bottom: 13px;
+  position: absolute;
+  bottom: 13px;
 }
 
 .word1 {
-    font-size: 18px;
-    padding: 10px 0;
-    border-top: 1px solid #e2e2e2;   
+  font-size: 18px;
+  padding: 10px 0;
+  border-top: 1px solid #e2e2e2;
 }
 
 .for-img-aria6 {
-    left: 70px;
-    bottom: 70px;
+  left: 70px;
+  bottom: 70px;
 }
 
 .for-img-aria7 {
-    left: 332px;
-    bottom: 70px;
+  left: 332px;
+  bottom: 70px;
 }
 
 .for-img-aria8 {
-    left: 590px;
-    bottom: 70px;
+  left: 590px;
+  bottom: 70px;
 }
 
 .word-edit {
-    position: absolute;
-    bottom: 380px;
-    width: 760px;
+  position: absolute;
+  bottom: 380px;
+  width: 760px;
 }
 
 .h-r {
-    border-top: 3px double rgb(224, 222, 222);
-    width: 1100px;
-    margin-left: 110px;    
+  border-top: 3px double rgb(224, 222, 222);
+  width: 1100px;
+  margin-left: 110px;
 }
 
 .logo-footer {
-    width: 200px;
-    margin-top: 20px;
+  width: 200px;
+  margin-top: 20px;
 }
 
 .logo-footer-word {
-    float: right;
-    margin-top: 20px;
-    position: relative;
+  float: right;
+  margin-top: 20px;
+  position: relative;
 }
 
-.start-footer{
-    position: relative;
-    padding-bottom: 50px;
+.start-footer {
+  position: relative;
+  padding-bottom: 50px;
 }
 
-.start-footer ul li{
-    font-size: 14px;
+.start-footer ul li {
+  font-size: 14px;
 }
 
 .start-footer a {
-    color: black;
+  color: black;
 }
 
 .foot-1 {
-    width: fit-content;
-    margin-left: 70px;
+  width: fit-content;
+  margin-left: 70px;
 }
 
 .fo-d-1,
@@ -441,7 +445,7 @@ aside {
 .fo-d-4,
 .fo-d-5,
 .fo-d-6 {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 .fo-ul-1,
@@ -451,7 +455,7 @@ aside {
 .fo-ul-5,
 .fo-ul-6,
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .foot-2,
@@ -459,90 +463,89 @@ a:link {
 .foot-4,
 .foot-5,
 .foot-6 {
-    width: fit-content;
-    position: absolute;
-    top: 55px;
+  width: fit-content;
+  position: absolute;
+  top: 55px;
 }
 
-
 .foot-2 {
-    margin-left: 260px;
+  margin-left: 260px;
 }
 
 .foot-3 {
-    margin-left: 443px;
+  margin-left: 443px;
 }
 
 .foot-4 {
-    margin-left: 625px;
+  margin-left: 625px;
 }
 
 .foot-5 {
-    margin-left: 810px;
+  margin-left: 810px;
 }
 
 .foot-6 {
-    margin-left: 1013px;
-    border-left:1px solid rgb(224, 222, 222) ;
+  margin-left: 1013px;
+  border-left: 1px solid rgb(224, 222, 222);
 }
 
 .fo-d-6 {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .h-r-1 {
-    width: 160px;
+  width: 160px;
 }
 
-.foot-ico-1 { 
-    width: 10px;
-    margin-right: 2px;
+.foot-ico-1 {
+  width: 10px;
+  margin-right: 2px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .foot-fi-div {
-    font-size: 11px;
-    position: relative;
-    margin-left:110px;
-    border-top: 1px solid rgb(224, 222, 222);
-    width: 1150px;
-    padding-bottom: 70px;
+  font-size: 11px;
+  position: relative;
+  margin-left: 110px;
+  border-top: 1px solid rgb(224, 222, 222);
+  width: 1150px;
+  padding-bottom: 70px;
 }
 
 .logo-footer-word a,
 .foot-fi-div a {
-    color: grey;
+  color: grey;
 }
 
 .foot-fi-a {
-    margin: 5px;
+  margin: 5px;
 }
 
 .bot-fix {
-    position: fixed;
-    z-index: 1;
-    bottom: 0px;
-    width: 1310px;
-    padding: 10px;
-    background-color: white;
-    border-top: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 1310px;
+  padding: 10px;
+  background-color: white;
+  border-top: 1px solid black;
 }
 
 .access {
-    margin-left: 420px;
+  margin-left: 420px;
 }
 
 .expand {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 a {
-    color: black;
+  color: black;
 }
